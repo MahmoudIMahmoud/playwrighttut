@@ -1,0 +1,7 @@
+- Create the environment for the project:
+     - create and navigate to the project folder
+     pipenv shell .
+- You need to install the chromium:
+     npx playwright install chromium
+- running the test for check the environment:
+     pipenv run py.test    
